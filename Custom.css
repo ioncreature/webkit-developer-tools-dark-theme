@@ -651,3 +651,18 @@
 	background: #a0e0a0;
 	color: #fff;
 }
+
+
+
+/**********************************************/
+/* POPOVER
+/**********************************************/
+
+#-webkit-web-inspector .popover {
+	color: #444 !important;
+}
+
+#-webkit-web-inspector .popover .content {
+	background-color: #444 !important;
+	border-radius: 4px;
+}
