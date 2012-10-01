@@ -10,3 +10,8 @@ Copy Custom.css into:
 
 For windows: 
 %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets
+
+
+Build
+
+stylus < Custom.styl > path\to\Custom.css

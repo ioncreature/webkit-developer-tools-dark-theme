@@ -1,0 +1,45 @@
+/**********************************************/
+/* Layout
+/**********************************************/
+
+#-webkit-web-inspector .script-view,
+#-webkit-web-inspector .properties-tree,
+#-webkit-web-inspector .pane,
+#-webkit-web-inspector .breakpoint-list li,
+#-webkit-web-inspector .pane > .body .info {
+    color: #CCC !important;
+}
+
+#-webkit-web-inspector .script-view,
+#-webkit-web-inspector .text-editor-contents,
+#-webkit-web-inspector .pane.expanded,
+#-webkit-web-inspector #elements-content,
+#-webkit-web-inspector .resource-view.json {
+    background: #282B2E !important;
+    font-size: 14px !important;
+    line-height: 19px !important;
+    font-family: DejaVu Sans Mono !important;
+}
+
+#-webkit-web-inspector .highlight {
+    color: #F1F1F1;
+}
+
+#-webkit-web-inspector li.hovered:not(.selected) .selection {
+    background: rgba(255, 255, 255, .2) !important;
+}
+
+#-webkit-web-inspector #elements-content .selected {
+    background-color: #373B41 !important;
+    /*background-color: #474247 !important;*/
+}
+
+#-webkit-web-inspector .parent::before {
+    content: url(chrome-devtools://devtools/Images/treeRightTriangleWhite.png) !important;
+    position: relative;
+    z-index: 999;
+}
+
+#-webkit-web-inspector .parent.expanded::before {
+    content: url(chrome-devtools://devtools/Images/treeDownTriangleWhite.png) !important;
+}
