@@ -1,0 +1,7 @@
+{
+	"name": "webkit-developer-tools-dark-theme",
+	"author": "Marenin Alexander <great_muchacho@mail.ru>",
+	"dependencies": {
+		"stylus": ">= 0.29.0"
+	}
+}

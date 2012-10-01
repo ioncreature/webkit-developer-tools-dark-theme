@@ -317,28 +317,34 @@
   color: #fff !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
-  color: #7c7c7c !important;
+  color: #66747b !important;
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
-  color: #c96666 !important;
+/*color: #C96666 !important;*/
+  color: #93c763 !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #eec574 !important;
+  color: #678cb1 !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
   color: #db925f !important;
 }
-#-webkit-web-inspector .webkit-css-number,
-#-webkit-web-inspector .properties-tree .value {
-  color: #db925f !important;
+#-webkit-web-inspector .webkit-css-number {
+  color: #ffcd22 !important;
 }
-#-webkit-web-inspector .webkit-css-important,
+#-webkit-web-inspector .properties-tree .value {
+/*color: #DB925F !important;*/
+  color: #ffcd22 !important;
+}
+#-webkit-web-inspector .webkit-css-important {
+  color: #e56258 !important;
+}
 #-webkit-web-inspector .webkit-css-at-rule {
   color: #b094bb !important;
 }
 #-webkit-web-inspector .webkit-css-string {
-  color: #b5bc67 !important;
+  color: #e0e2e4 !important;
 }
 #-webkit-web-inspector .webkit-css-url {
   color: #eec574 !important;
@@ -389,4 +395,3 @@
 #-webkit-web-inspector .event-properties .name {
   color: #82a1be !important;
 }
-
