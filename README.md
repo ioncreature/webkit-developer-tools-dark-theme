@@ -8,8 +8,9 @@ Install
 
 Copy Custom.css into:
 
-For windows: 
-%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets
+Mac OSX: ~/Library/Application Support/Google/Chrome/Profile 1/User StyleSheets/Custom.css
+Windows: %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
+Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
 
 
 Build
