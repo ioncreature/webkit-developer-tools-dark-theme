@@ -191,9 +191,8 @@
   width: 50px;
 }
 #-webkit-web-inspector ::selection {
-/*background: #ffb7b7;*/
-  background: #a0e0a0;
-  color: #fff;
+  background: #81b281;
+  color: #ddd;
 }
 #-webkit-web-inspector #console-messages {
   font-family: DejaVu Sans Mono, Consolas, monospased !important;
