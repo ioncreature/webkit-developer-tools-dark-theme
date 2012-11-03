@@ -1,8 +1,7 @@
 webkit-developer-tools-dark-theme
 =================================
 
-Dark theme for Chrome Developer Tools
-
+Obsidian Dark theme for Chrome Developer Tools
 
 Install
 
