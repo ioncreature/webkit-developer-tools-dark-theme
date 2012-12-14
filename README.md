@@ -15,3 +15,6 @@ Ubuntu: ~/.config/chromium/Default/User StyleSheets/Custom.css
 Build
 
 stylus < Custom.styl > path\to\Custom.css
+
+For example for Windows:
+stylus < Custom.styl > "%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css"
