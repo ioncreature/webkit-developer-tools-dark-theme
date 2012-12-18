@@ -40,10 +40,13 @@
 }
 #-webkit-web-inspector.compact.status-bar .toolbar-icon {
   -webkit-transform: translateY(1px);
-  margin: 0 5px;
+  margin: 10px 5px 0 5px !important;
 }
 #-webkit-web-inspector.compact #toolbar {
-  background: #cdcdcd !important;
+  height: 30px !important;
+}
+#-webkit-web-inspector.compact #main {
+  top: 30px !important;
 }
 #-webkit-web-inspector .toolbar-item.elements:hover:after {
   content: "Elements";

@@ -34,16 +34,17 @@
         .status-bar
             background-image: -webkit-linear-gradient(#AAA, #888) !important
 
-    &.compact.status-bar
-        .toolbar-item:hover:after
-            display: inline
-        .toolbar-icon
-            -webkit-transform: translateY(1px)
-            margin: 0 5px
-
-    &.compact #toolbar
-        background: #cdcdcd !important
-
+    &.compact
+        &.status-bar
+            .toolbar-item:hover:after
+                display: inline
+            .toolbar-icon
+                -webkit-transform: translateY(1px)
+                margin: 10px 5px 0 5px !important
+        #toolbar
+            height: 30px !important
+        #main
+            top: 30px !important
 
     .toolbar-item.elements:hover:after
         content: "Elements"
