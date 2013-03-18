@@ -9,17 +9,17 @@ Copy Custom.css into:
 
 * Mac OSX 
 
-```sh
+```
   ~/Library/Application Support/Google/Chrome/Profile 1/User StyleSheets/Custom.css
 ```
 * Windows 
 
-```cmd
+```
   %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
 ```
 * Ubuntu 
 
-```sh
+```
   ~/.config/chromium/Default/User StyleSheets/Custom.css
 ```
 
@@ -29,7 +29,7 @@ Copy Custom.css into:
 * Download & install [NodeJS](http://nodejs.org/download/)
 * Install Stylus
 
-```sh
+```
   npm install stylus -g
 ```
 * Compile to css
