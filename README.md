@@ -10,7 +10,7 @@ Copy Custom.css into:
 * Mac OSX 
 
 ```
-  ~/Library/Application Support/Google/Chrome/Profile 1/User StyleSheets/Custom.css
+  ~/Library/Application Support/Google/Chrome/Default/User StyleSheets/Custom.css
 ```
 * Windows 
 
